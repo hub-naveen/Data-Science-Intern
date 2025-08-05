@@ -1,93 +1,89 @@
-# 🍽️ Zomato Restaurant Data Analysis & Prediction
+# 🍽️ Zomato Exploratory Data Analysis & Modeling
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](#)
+Welcome to a comprehensive deep-dive into the Zomato restaurant dataset! This project walks through the complete lifecycle of data science: cleaning, analysis, visualization, feature engineering, and predictive modeling.
 
-A complete end-to-end data analysis and machine learning project on the **Zomato Restaurant Dataset**.  
-From preprocessing to predictive modeling and visualization, this project reveals valuable business insights into restaurant operations, customer preferences, and rating behaviors.
+> 📌 **Made with curiosity, code, and caffeine.**
 
 ---
 
-## 📑 Table of Contents
+## 📊 Project Structure
 
-- [📊 Dataset Overview](#-dataset-overview)
-- [✅ Task Breakdown](#-task-breakdown)
-  - [Level 1: Basic Exploration](#level-1-basic-exploration)
-  - [Level 2: Business Insights](#level-2-business-insights)
-  - [Level 3: Machine Learning](#level-3-machine-learning)
-- [📈 Visualizations](#-visualizations)
-- [🧠 Technologies Used](#-technologies-used)
-- [📎 How to Run](#-how-to-run)
-- [📝 License](#-license)
-
----
-
-## 📊 Dataset Overview
-
-- **Source:** Zomato (India)
-- **Total Rows:** 9,000+ restaurants
-- **Features Include:**
-  - Restaurant name, Location, Cuisines
-  - Aggregate ratings, Votes, Price range
-  - Table booking & Online delivery availability
-  - Restaurant type, City, and more
+```
+├── 📁 Level 1 - Data Understanding & Analysis
+│   ├── Task 1: Cuisine Analysis
+│   ├── Task 2: Rating Distribution
+│   └── Task 3: Geospatial Insights
+│
+├── 📁 Level 2 - Feature Deep Dive
+│   ├── Task 1: Table Booking & Delivery Analysis
+│   ├── Task 2: Price Range & Rating
+│   └── Task 3: Feature Engineering
+│
+├── 📁 Level 3 - Machine Learning
+│   ├── Task 1: Rating Prediction
+│   ├── Task 2: Cuisine Preference Analysis
+│   └── Task 3: Visual Insights
+│
+├── requirements.txt
+└── .gitignore
+```
 
 ---
 
-## ✅ Task Breakdown
+## 🔧 Tech Stack
 
-### 🔹 Level 1: Basic Exploration
-
-- Data loading and cleaning
-- Handling missing values and duplicates
-- Univariate and multivariate analysis
-- Visualization of ratings, locations, and cuisines
-
-### 🔸 Level 2: Business Insights
-
-- 📌 Table Booking & Online Delivery Analysis
-- 📌 Price Range vs Rating
-- 📌 Feature Engineering (e.g., name length, address length)
-
-### 🔺 Level 3: Machine Learning
-
-- 📈 Regression model to predict aggregate rating
-- 📉 Model evaluation using RMSE, MAE, R²
-- 🔁 Algorithms: Linear Regression, Decision Tree, Random Forest
-- 💬 Customer preference insights from cuisine types
-- 📊 Relationship analysis: rating vs votes, price, city
+- Python (pandas, numpy, matplotlib, seaborn)
+- Jupyter Notebook
+- Scikit-learn
+- Exploratory Data Analysis (EDA)
+- Regression Models: Linear Regression, Decision Trees, Random Forest
 
 ---
 
-## 📈 Visualizations
+## 💡 Highlights
 
-- Distribution of ratings (histogram, pie, bar)
-- Boxplots: Table booking vs Rating
-- Cuisine-wise vote and rating comparison
-- Feature correlation heatmaps
-- Scatter plots for model prediction insights
-
-<p align="center">
-  <img src="assets/rating_distribution.png" width="400"/> &nbsp;
-  <img src="assets/cuisine_vs_votes.png" width="400"/>
-</p>
+- 📍 **Geospatial Mapping**: Analyze restaurant locations via latitude & longitude
+- ⭐ **Rating Comparisons**: By cuisines, booking options, cities, and price levels
+- 🔍 **Customer Behavior**: What cuisines people vote for the most?
+- 🤖 **Predictive Modeling**: ML models to forecast restaurant ratings
 
 ---
 
-## 🧠 Technologies Used
+## 🚀 How to Run
 
-- **Language:** Python 🐍
-- **Libraries:**
-  - `pandas`, `numpy`, `matplotlib`, `seaborn`
-  - `scikit-learn` for ML models
-- **IDE:** Jupyter Notebook
-- **Version Control:** Git + GitHub
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/zomato-eda.git
+cd zomato-eda
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch notebooks
+jupyter notebook
+```
 
 ---
 
-## 📎 How to Run
+## 🧠 Learnings
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/hub-naveen/Data-Science-Intern/tree/main/Data_Science
+- Cleaned and transformed raw restaurant data into structured insights
+- Built feature-rich visualizations to explain customer preferences
+- Trained multiple regression models and evaluated their performance
+- Understood how location, cuisine, and price affect user ratings
+
+---
+
+## 📎 Files
+
+- [requirements.txt](requirements.txt): Install all required libraries
+- [.gitignore](.gitignore): Keep your repo clean from unnecessary files
+
+---
+
+## 🌟 Let's Connect
+
+**Author**: Naveen K  
+📧 [itzmenavin07@gmail.com](mailto:itzmenavin07@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/7naveen)  
+💻 [GitHub](https://github.com/hub-naveen)
